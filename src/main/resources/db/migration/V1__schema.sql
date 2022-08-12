@@ -1,0 +1,7 @@
+DROP TABLE IF EXISTS genre;
+
+CREATE TABLE genre
+(
+    id   BIGINT       NOT NULL,
+    name VARCHAR(255) NOT NULL UNIQUE
+);
